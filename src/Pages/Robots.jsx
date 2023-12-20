@@ -26,7 +26,7 @@ import FormHelperText from "@mui/material/FormHelperText";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
-const Robots = () => {
+/* const Robots = () => {
   <Box sx={{ display: "block", minHeight: "100vh", minWidth: "85%" }}>
     <Card style={{ margin: "10px" }} variant="outlined">
       <Stack direction="row" spacing={2} alignItems="center">
@@ -101,5 +101,9 @@ const Robots = () => {
     </Card>
   </Box>;
 };
+ */
+const Robots2 = () => {
+  return <div>Robots Placeholder</div>;
+};
 
-export default Robots;
+export default Robots2;

@@ -14,14 +14,16 @@ const data2 = [];
 
 const Dashboard = () => {
   console.log("I am here");
-  <>
-    <p>Hellooooo</p>
-    <div sx={{ display: "block", minHeight: "100vh", minWidth: "85%" }}>
+  return (
+    <>
       <p>Hellooooo</p>
-    </div>
-    <p>Hellooooo</p>
-    <p>Hellooooo</p>
-  </>;
+      <div sx={{ display: "block", minHeight: "100vh", minWidth: "85%" }}>
+        <p>Hellooooo</p>
+      </div>
+      <p>Hellooooo</p>
+      <p>Hellooooo</p>
+    </>
+  );
 };
 
 export default Dashboard;
